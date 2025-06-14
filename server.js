@@ -14,7 +14,11 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://weather-5sedbpzxo-adprasad1996s-projects.vercel.app", // Replace with your actual Vercel URL
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Root Route
