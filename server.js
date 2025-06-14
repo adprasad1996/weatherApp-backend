@@ -15,7 +15,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: "https://weather-5sedbpzxo-adprasad1996s-projects.vercel.app", // Replace with your actual Vercel URL
+  origin: "https://weatherapp-backend-neb4.onrender.com", // Replace with your actual Vercel URL
   credentials: true
 }));
 
